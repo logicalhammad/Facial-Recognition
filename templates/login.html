@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    {% include 'common/head.html' %}
+
+    <title>Login</title>
+</head>
+<body class="dark">
+
+    {% include 'common/header.html' %}
+
+    <!-- <h1>Hello friends. Login kr lo pleeej!</h1>
+    <form method="POST" action="/register">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+        <button type="submit">Login</button>
+    </form> -->
+    <div class="main-form">
+        <div class="form">
+            <form method="POST" action="/register">
+                <h1>Admin Panel</h1>
+                <input type="text" name="username" id="username" required placeholder="Username">
+                <input type="password" name="password" id="password" required placeholder="Password">
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+    {% if error %}
+        <p style="color: red;">{{ error }}</p>
+    {% endif %}
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    {% include 'common/head.html' %}
+
+    <title>Facial Recognition</title>
+</head>
+<body class="dark">
+
+    {% include 'common/header.html' %}
+
+    <section class="containerrr single">
+        <div class="upload-card large">
+            <div class="upload-box">
+                <input type="file" accept="image/*" id="upload-face" style="display: none !important;">
+                <div class="placeholder upload-face hidden"></div>
+                <div class="uploaded-image">
+
+                </div>
+                <div class="background-text">
+                    <span class="drop-image">Drop Image</span>
+                </div>
+                <div class="placeholder-text">
+                    <span class="drop-image">Select or Drop Image</span>
+                </div>
+            </div>
+            <div class="image-details">
+                <p class="text">Upload an Image</p>
+                <p class="error"></p>
+            </div>
+        </div>
+        <div class="submit-button">
+            <button id="submit-image">Recognize</button>
+            <button id="analyse">Analyse</button>
+        </div>
+    </section>
+    <section class="results hidden">
+        <h1>Results</h1>
+        <hr class="heading">
+        <div class="best-match">
+            <!-- <h3>Best Match</h3>
+            <span><b>Name: </b>Hammad Mustafa</span>
+            <span><b>Age: </b>21</span>
+            <span><b>Email: </b>Hammad@nelston.com</span>
+            <span><b>Confidence: </b>80%</span> -->
+        </div>
+        <hr class="center">
+        <div class="possible-match">
+            <!-- <h3>Possible Matches</h3>
+            <div>
+                <div>
+                    <h4>Person 1</h4>
+                    <span><b>Name:&nbsp;</b>Hammad Mustafa</span>
+                    <span><b>Age:&nbsp;</b>21</span>
+                    <span><b>Confidence:&nbsp;</b>80%</span>
+                </div>
+            </div> -->
+        </div>
+    </section>
+    <section class="results analysis hidden">
+        <h1>Analysis</h1>
+        <hr class="heading">
+        <div class="analysis-result">
+            <!-- <h3>Best Match</h3>
+            <span><b>Age: </b>21</span>
+            <span><b>Email: </b>Hammad@nelston.com</span>
+            <span><b>Confidence: </b>80%</span> -->
+        </div>
+    </section>
+    <script src="{{url_for('static', filename='js/home.js')}}"></script>
+</body>
+</html>

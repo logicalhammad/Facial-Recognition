@@ -1,0 +1,259 @@
+
+@keyframes move1 {
+    0% {
+        transform: translate(var(--stpx) , var(--stpy));
+    }
+
+    100% {
+        transform: translate(var(--etpx), var(--etpy));
+    }
+}
+
+.c1 {
+    animation: move1 45s infinite alternate linear;
+    /* translate(-94%, 63%) */
+    /* translate(-69%, 93%) */
+    /* translate(3%, 27%) */
+
+    --stpx: -74%;
+    --stpy: 15%;
+
+    --etpx: -7%;
+    --etpy: 78%;
+}
+.c2 {
+    animation: move1 45s infinite alternate linear;
+
+    --stpx: 0%;
+    --stpy: 0%;
+
+    --etpx: 9%;
+    --etpy: -75%;
+}
+.c3 {
+    animation: move1 50s infinite alternate linear;
+
+    --stpx: 0%;
+    --stpy: 0%;
+
+    --etpx: 82%;
+    --etpy: 28%;
+}
+.c4 {
+    animation: move1 49s infinite alternate linear;
+
+    --stpx: 0%;
+    --stpy: 0%;
+
+    --etpx: -27%;
+    --etpy: 66%;
+}
+.c5 {
+    animation: move1 47s infinite alternate linear;
+
+    --stpx: 0%;
+    --stpy: 0%;
+
+    --etpx: 57%;
+    --etpy: 61%;
+}
+.c6 {
+    animation: move1 52s infinite alternate linear;
+
+    --stpx: 0%;
+    --stpy: 0%;
+
+    --etpx: -58%;
+    --etpy: -31%;
+}
+.c7 {
+    animation: move1 47s infinite alternate linear;
+
+    --stpx: 0%;
+    --stpy: 0%;
+
+    --etpx: 73%;
+    --etpy: -61%;
+}
+.c8 {
+    animation: move1 48s infinite alternate linear;
+
+    --stpx: 0%;
+    --stpy: 0%;
+
+    --etpx: 38%;
+    --etpy: 88%;
+}
+.c9 {
+    animation: move1 51s infinite alternate linear;
+
+    --stpx: 0%;
+    --stpy: 0%;
+
+    --etpx: 39%;
+    --etpy: -43%;
+}
+.c10 {
+    animation: move1 42s infinite alternate linear;
+
+    --stpx: 0%;
+    --stpy: 0%;
+
+    --etpx: 19%;
+    --etpy: 55%;
+}
+.c11 {
+    animation: move1 40s infinite alternate linear;
+
+    --stpx: 0%;
+    --stpy: 0%;
+
+    --etpx: -15%;
+    --etpy: -51%;
+}
+.c12 {
+    animation: move1 50s infinite alternate linear;
+
+    --stpx: 0%;
+    --stpy: 0%;
+
+    --etpx: -77%;
+    --etpy: -26%;
+}
+.c13 {
+    animation: move1 49s infinite alternate linear;
+
+    --stpx: 0%;
+    --stpy: 0%;
+
+    --etpx: -36%;
+    --etpy: 58%;
+}
+.c14 {
+    animation: move1 44s infinite alternate linear;
+
+    --stpx: 0%;
+    --stpy: 0%;
+
+    --etpx: 10%;
+    --etpy: 60%;
+}
+.c15 {
+    animation: move1 45s infinite alternate linear;
+
+    --stpx: 0%;
+    --stpy: 0%;
+
+    --etpx: 50%;
+    --etpy: -18%;
+}
+.c16 {
+    animation: move1 47s infinite alternate linear;
+
+    --stpx: 0%;
+    --stpy: 0%;
+
+    --etpx: -48%;
+    --etpy: 20%;
+}
+.c17 {
+    animation: move1 49s infinite alternate linear;
+
+    --stpx: 0%;
+    --stpy: 0%;
+
+    --etpx: 21%;
+    --etpy: 60%;
+}
+.c18 {
+    animation: move1 44s infinite alternate linear;
+
+    --stpx: 0%;
+    --stpy: 0%;
+
+    --etpx: 38%;
+    --etpy: -51%;
+}
+.c19 {
+    animation: move1 18s infinite alternate linear;
+
+    --stpx: 0%;
+    --stpy: 0%;
+
+    --etpx: 28%;
+    --etpy: 38%;
+}
+.c20 {
+    animation: move1 43s infinite alternate linear;
+
+    --stpx: 0%;
+    --stpy: 0%;
+
+    --etpx: -30%;
+    --etpy: 32%;
+}
+.c21 {
+    animation: move1 41s infinite alternate linear;
+
+    --stpx: 0%;
+    --stpy: 0%;
+
+    --etpx: 46%;
+    --etpy: 8%;
+}
+.c22 {
+    animation: move1 17s infinite alternate linear;
+
+    --stpx: 0%;
+    --stpy: 0%;
+
+    --etpx: -40%;
+    --etpy: -32%;
+}
+.c23 {
+    animation: move1 47s infinite alternate linear;
+
+    --stpx: 0%;
+    --stpy: 0%;
+
+    --etpx: -48%;
+    --etpy: -42%;
+}
+.c24 {
+    animation: move1 14s infinite alternate linear;
+
+    --stpx: 0%;
+    --stpy: 0%;
+
+    --etpx: 34%;
+    --etpy: -40%;
+}
+.c25 {
+    animation: move1 18s infinite alternate linear;
+
+    --stpx: 0%;
+    --stpy: 0%;
+
+    --etpx: -57%;
+    --etpy: -16%;
+}
+.c26 {
+    animation: move1 41s infinite alternate linear;
+
+    --stpx: 0%;
+    --stpy: 0%;
+
+    --etpx: -44%;
+    --etpy: 61%;
+}
+.c27 {
+    animation: move1 48s infinite alternate linear;
+
+    --stpx: 0%;
+    --stpy: 0%;
+
+    --etpx: 88%;
+    --etpy: 76%;
+}
+
+

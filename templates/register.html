@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    {% include 'common/head.html' %}
+
+    <title>Image Upload Interface</title>
+</head>
+<body class="dark">
+
+    {% include 'common/header.html' %}
+
+    <div class="statusbar">
+        <div class="steps">
+            <h2 class="enter-mail active">Enter Email</h2>
+            <h2 class="submit-form">Submit Form</h2>
+            <h2 class="upload-images">Upload Images</h2>
+        </div>
+        <hr>
+    </div>
+
+    <div class="email-form">
+        <div class="form">
+            <h1>Enter Your Email</h1>
+            <input type="email" name="email" id="email" required placeholder="Enter Your Email">
+            <button id="register-email">Register</button>
+        </div>
+    </div>
+
+    <div class="main-form hidden">
+        <div class="form">
+            <h1>Enter Your Details</h1>
+            <input type="text" name="name" id="name" required placeholder="Enter Full Name">
+            <input type="number" name="age" id="age" placeholder="Enter Age">
+            <button id="register-user">Register</button>
+        </div>
+    </div>
+
+    <div class="containerrr hidden">
+        <div class="upload-card">
+            <div class="upload-box">
+                <input type="file" accept="image/*" id="front-face" style="display: none !important;">
+                <div class="placeholder front-face"></div>
+                <div class="uploaded-image">
+
+                </div>
+                <div class="background-text">
+                    <span class="drop-image">Drop Image</span>
+                </div>
+                <div class="placeholder-text">
+                    <span class="drop-image reg">Upload Image</span>
+                </div>
+            </div>
+            <div class="image-details">
+                <p class="text">Front Straight</p>
+                <p class="error"></p>
+            </div>
+        </div>
+
+        <div class="upload-card">
+            <div class="upload-box">
+                <input type="file" accept="image/*" id="face-with-smile" style="display: none !important;">
+                <div class="placeholder face-with-smile"></div>
+                <div class="uploaded-image">
+
+                </div>
+                <div class="background-text">
+                    <span class="drop-image">Drop Image</span>
+                </div>
+                <div class="placeholder-text">
+                    <span class="drop-image reg">Upload Image</span>
+                </div>
+            </div>
+            <div class="image-details">
+                <p class="text">Front Face with a Smile</p>
+                <p class="error"></p>
+            </div>
+        </div>
+        <div class="upload-card">
+            <div class="upload-box">
+                <input type="file" accept="image/*" id="face-left-20" style="display: none !important;">
+                <div class="placeholder face-left-20"></div>
+                <div class="uploaded-image">
+
+                </div>
+                <div class="background-text">
+                    <span class="drop-image">Drop Image</span>
+                </div>
+                <div class="placeholder-text">
+                    <span class="drop-image reg">Upload Image</span>
+                </div>
+            </div>
+            <div class="image-details">
+                <p class="text">Face Slightly Left (15-20 deg)</p>
+                <p class="error"></p>
+            </div>
+        </div>
+        <div class="upload-card">
+            <div class="upload-box">
+                <input type="file" accept="image/*" id="face-left-45" style="display: none !important;">
+                <div class="placeholder face-left-45"></div>
+                <div class="uploaded-image">
+
+                </div>
+                <div class="background-text">
+                    <span class="drop-image">Drop Image</span>
+                </div>
+                <div class="placeholder-text">
+                    <span class="drop-image reg">Upload Image</span>
+                </div>
+            </div>
+            <div class="image-details">
+                <p class="text">Face Left 45 degree</p>
+                <p class="error"></p>
+            </div>
+        </div>
+        <div class="upload-card">
+            <div class="upload-box">
+                <input type="file" accept="image/*" id="face-node-up" style="display: none !important;">
+                <div class="placeholder face-node-up"></div>
+                <div class="uploaded-image">
+
+                </div>
+                <div class="background-text">
+                    <span class="drop-image">Drop Image</span>
+                </div>
+                <div class="placeholder-text">
+                    <span class="drop-image reg">Upload Image</span>
+                </div>
+            </div>
+            <div class="image-details">
+                <p class="text">Face Slightly Node Up</p>
+                <p class="error"></p>
+            </div>
+        </div>
+        <div class="upload-card">
+            <div class="upload-box">
+                <input type="file" accept="image/*" id="face-node-down" style="display: none !important;">
+                <div class="placeholder face-node-down"></div>
+                <div class="uploaded-image">
+
+                </div>
+                <div class="background-text">
+                    <span class="drop-image">Drop Image</span>
+                </div>
+                <div class="placeholder-text">
+                    <span class="drop-image reg">Upload Image</span>
+                </div>
+            </div>
+            <div class="image-details">
+                <p class="text">Face Slightly Node Down</p>
+                <p class="error"></p>
+            </div>
+        </div>
+        <!-- <div class="upload-card">
+            <div class="upload-box">
+                <input type="file" accept="image/*" id="" style="display: none !important;">
+                <div class="placeholder"></div>
+                <div class="uploaded-image">
+
+                </div>
+                <div class="background-text">
+                    <span class="drop-image">Drop Image</span>
+                </div>
+                <div class="placeholder-text">
+                    <span class="drop-image reg">Upload Image</span>
+                </div>
+            </div>
+            <div class="image-details">
+                <p class="text">Front Straight</p>
+                <p class="error"></p>
+            </div>
+        </div> -->
+        <!-- <div class="upload-card">
+            <div class="upload-box">
+                <input type="file" accept="image/*" id="" style="display: none !important;">
+                <div class="placeholder"></div>
+                <div class="uploaded-image">
+
+                </div>
+                <div class="background-text">
+                    <span class="drop-image">Drop Image</span>
+                </div>
+                <div class="placeholder-text">
+                    <span class="drop-image reg">Upload Image</span>
+                </div>
+            </div>
+            <div class="image-details">
+                <p class="text">Front Straight</p>
+                <p class="error"></p>
+            </div>
+        </div> -->
+        <!-- <div class="upload-card">
+            <div class="upload-box">
+                <input type="file" accept="image/*" id="" style="display: none !important;">
+                <div class="placeholder"></div>
+                <div class="uploaded-image">
+
+                </div>
+                <div class="background-text">
+                    <span class="drop-image">Drop Image</span>
+                </div>
+                <div class="placeholder-text">
+                    <span class="drop-image reg">Upload Image</span>
+                </div>
+            </div>
+            <div class="image-details">
+                <p class="text">Front Straight</p>
+                <p class="error"></p>
+            </div>
+        </div> -->
+        
+    </div>
+
+    <div class="submit-button hidden">
+        <button id="submit-images">Submit Images</button>
+    </div>
+
+    <script src="{{url_for('static', filename='js/script.js')}}"></script>
+</body>
+</html>
