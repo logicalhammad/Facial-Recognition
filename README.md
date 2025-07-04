@@ -80,17 +80,17 @@ Everything from drag-and-drop uploads, animated cards, to dynamic error messages
 ---
 
 ## 📂 Folder Structure
-facial-recognition/
-├── database
-    └── username
-       └── Their encodings in .npy file
-├── static
-    ├── CSS
-    ├── JS
-    └── Images
-├── templates
-    └── common
-└── uploads
+facial-recognition/<br>
+├── database<br>
+&nbsp;&nbsp;&nbsp;&nbsp;└── username<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── Their encodings in .npy file<br>
+├── static<br>
+&nbsp;&nbsp;&nbsp;&nbsp;├── CSS<br>
+&nbsp;&nbsp;&nbsp;&nbsp;├── JS<br>
+&nbsp;&nbsp;&nbsp;&nbsp;└── Images<br>
+├── templates<br>
+&nbsp;&nbsp;&nbsp;&nbsp;└── common<br>
+└── uploads<br>
 
 
 ---
